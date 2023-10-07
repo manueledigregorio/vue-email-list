@@ -11,9 +11,9 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="id">
+  <div id="app">
     <ul>
-      <li></li>
+      <li v-for="(email, index) in emails" :key="index">{{email}}</li>
     </ul>
   </div>
   
